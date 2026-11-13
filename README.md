@@ -17,7 +17,7 @@
 
 The **Autonomous Drone Delivery & Route Optimization Engine** is a spatial planning and trajectory optimization system designed for unmanned aerial vehicles (UAVs) performing multi-point package deliveries. 
 
-Given a central dispatch hub (warehouse) and a network of delivery destinations with topological constraints, the system models the airspace as a weighted coordinate graph. It computes the globally optimal, collision-free delivery trajectory using the **A\* heuristic search algorithm**, cutting simulated travel and energy costs by up to **25%** compared to unoptimized transit paths.
+Given a central dispatch hub (warehouse) and a network of delivery destinations with topological constraints, the system models the airspace as a weighted coordinate graph. It computes the globally optimal, collision-free delivery trajectory using the **A\* heuristic search algorithm** to identify the lowest-cost delivery path across the network.
 
 ---
 
